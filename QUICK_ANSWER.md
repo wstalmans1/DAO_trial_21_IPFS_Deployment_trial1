@@ -145,3 +145,5 @@ const id = "abc123xyz";  // Value is embedded, visible to anyone!
 | How does Fleek get env vars? | You set them in Fleek dashboard |
 | Can I deploy `dist/` directly? | Yes! Build locally or use GitHub Actions |
 
+
+
