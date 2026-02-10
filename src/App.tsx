@@ -1,3 +1,4 @@
+// Last sync: 2025-02-10
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useAccount, useBalance } from 'wagmi';
 import { Providers } from './providers';
@@ -86,6 +87,13 @@ function AppContent() {
             </ul>
           </div>
         </div>
+
+          {/* Footer */}
+          <div className="text-center mt-8">
+            <p className="text-xs text-gray-400 dark:text-gray-500">
+              Build 2025-02-10 — Served via IPFS
+            </p>
+          </div>
       </div>
     </main>
   );
