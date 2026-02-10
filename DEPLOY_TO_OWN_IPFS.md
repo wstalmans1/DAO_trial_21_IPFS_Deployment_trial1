@@ -32,7 +32,7 @@ You have several options:
 3. **Click the "+ Import" button** (blue button in the top right)
 4. **Select "Folder"**
 5. **Navigate to your project** and select the `dist/` folder
-   - Path: `/Users/wimstalmans/Projects/DAO_trial_21_IPFS_Deployment_trial1/dist`
+   - Path: `/Users/wimstalmans/Projects/web3connectiondemo.eth.limo/dist`
 6. **IPFS will add the folder** and show you the CID (Content Identifier)
 7. **The folder appears in your Files list** with a CID like `QmXxx...`
 
@@ -45,7 +45,7 @@ You have several options:
 
 ```bash
 # Navigate to your project root
-cd /Users/wimstalmans/Projects/DAO_trial_21_IPFS_Deployment_trial1
+cd /Users/wimstalmans/Projects/web3connectiondemo.eth.limo
 
 # Option 1: Use the automated script
 pnpm deploy:ipfs
@@ -64,7 +64,7 @@ ipfs add -r dist/
 #### Option C: Drag and Drop in IPFS Desktop
 
 1. Open Finder (macOS file manager)
-2. Navigate to `/Users/wimstalmans/Projects/DAO_trial_21_IPFS_Deployment_trial1/dist`
+2. Navigate to `/Users/wimstalmans/Projects/web3connectiondemo.eth.limo/dist`
 3. Drag the entire `dist/` folder into IPFS Desktop's "Files" section
 4. IPFS will add it automatically
 5. Copy the CID that appears

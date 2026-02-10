@@ -2,6 +2,10 @@
 
 A simple, modern webpage with Web3 wallet connection using RainbowKit v2, wagmi, Vite, and React.
 
+## Live Demo
+
+The frontend is available at: [https://web3connectiondemo.eth.limo](https://web3connectiondemo.eth.limo)
+
 ## Features
 
 - 🔗 **RainbowKit v2** - Beautiful wallet connection UI
